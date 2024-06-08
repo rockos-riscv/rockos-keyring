@@ -1,0 +1,5 @@
+rockos-keyring (2024.06.08) unstable; urgency=medium
+
+  * Add rockos-keyring
+
+ -- Han Gao <gaohan@iscas.ac.cn>  Sat, 08 Jun 2024 21:32:29 +0800

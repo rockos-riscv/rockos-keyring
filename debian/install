@@ -1,0 +1,2 @@
+keyrings/rockos-keyring.gpg usr/share/keyrings/
+keyrings/rockos-keyring.gpg etc/apt/trusted.gpg.d/

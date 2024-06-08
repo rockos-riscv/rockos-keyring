@@ -1,0 +1,16 @@
+Source: rockos-keyring
+Section: misc
+Priority: optional
+Maintainer: Han Gao <gaohan@iscas.ac.cn>
+Build-Depends: debhelper-compat (= 13), gnupg, gawk
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: rockos-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Recommends: gnupg
+Description: GnuPG keys of the RockOS
+ The RockOS project digitally signs its Release files. This package
+ contains the archive keys used for that.
